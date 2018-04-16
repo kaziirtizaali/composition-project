@@ -1,0 +1,240 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+hr{
+    border: 0.5px solid #979797;
+    margin-top: 50px;
+}
+a{
+    color: #e2494b;
+    font-size: 16px;
+}
+.no-padding{
+    padding: 0px;
+}
+
+.navbar-default{
+    background-color: #fff;
+    border-color: 2px solid #e7e7e7;
+    min-height: 100px;
+}
+.logo{
+    margin-top: 6px;
+}
+.navbar-right{
+    float: right!important;
+    margin-right: -15px;
+    margin-top: 17px;
+    background-color: #e2494b;
+    padding: 6px;
+    border-radius: 15px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 16px;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #ee9395;
+    background-color: transpare;
+}
+.bg-img h1{
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.bg-image{
+    
+}
+
+/*  Our Services */
+.section{
+    padding: 10px;
+}
+.title{
+    background-color: #e2494b;
+    text-align: center;
+    width: 30%;
+    font-size: 30px;
+    color: white;
+    font-weight: 300;
+    margin: -43px auto 0;
+    border-radius: 10px;
+    padding: 5px;
+}
+.section h1{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.section p{
+    color: #979797;
+    font-size: 16px;
+}
+.for-pad{
+    padding-bottom: 35px;
+}
+
+/* Our Players */
+.players{
+    width: 20%;
+    position: relative;
+    float: left;
+}
+.players-img{
+    padding: 40px 0px;
+}
+.players-img-2{
+    padding: 2% 13%;
+}
+.players-img-2 h4{
+    font-size: 16px;
+}
+.players-img-2 p{
+    font-size: 14px;
+    color: #979797;
+}
+.name-class{
+    font-size: 16px;
+    color: #979797;
+    font-weight: 400;
+}
+
+/* Latest Works */
+.latest-works-section{
+    margin-top: -20px;
+}
+.latest-works-img{
+    margin-bottom: 20px;
+}
+
+/* Blog Section */
+footer{
+    padding: 30px 0px 10px;
+    background-color: #e2e2e2;
+}
+footer h1{
+    color: #333333;
+    font-size: 24px;
+    font-weight: 400;
+}
+footer h3{
+    color: #e2494b;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px;
+    padding-bottom: 15px;
+}
+footer p{
+    font-size: 16px;
+    color: #979797;
+    font-weight: 350;
+}
+.footer-info{
+    padding-top: 15px;
+}
+.font-red{
+    color: #e2494b;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #e2494b;
+    border-color: #e2494b;
+}
+footer .btn{
+    border-radius: 8px;
+    padding: 7px 17px;
+    text-transform: uppercase;
+}
+footer hr{
+    border: 0.5px solid #c5c4c4;
+    margin-top: 50px;
+    box-shadow: 0px 1px 1px white;
+}
+footer .author p{
+    float: right;
+}
+
+
+/* For mobile devices */
+@media (min-width: 320px) and (max-width: 480px){
+    .bg-img h1 {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    .navbar-default {
+        min-height: 60px;
+    }
+    .title {
+        width: 48%;
+        font-size: 24px;
+        margin: -39px auto 0;
+    }
+    .for-pad {
+        padding-bottom: 15px;
+    }
+    .section .img-responsive, .thumbnail a>img, .thumbnail>img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        position: relative;
+        float: left;
+        padding-right: 15px;
+    }
+    .section p {
+        padding-top: 7px;
+    }
+    .players {
+        width: 100%;
+    }
+    .players-img {
+        padding: 5px 0px;
+    }
+    .players-img-2 {
+        padding: 1% 13%;
+    }
+    .players .center-block {
+        margin-top: 20px;
+    }
+    .latest-works-img .img-responsive, .thumbnail a>img, .thumbnail>img {
+        margin-top: 12px;
+    }
+    footer {
+        padding: 9px 0px 10px;
+        margin-top: 15px;
+    }
+    footer .for-mobile{
+        display: block;
+        margin: 0 auto;
+    }
+    footer h3 {
+        text-align: center;
+    }
+    footer p {
+        text-align: center;
+        font-size: 14px;
+    }
+    footer h1 {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footer-info {
+        padding-top: 8px;
+    }
+    footer .btn {
+        width: 100%;
+    }
+    footer hr {
+        margin-top: 35px;
+    }
+    footer .author p {
+        text-align: center;
+        float: none;
+        font-size: 14px;
+    }
+}
+
+
+
+
+
